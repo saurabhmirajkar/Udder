@@ -26,6 +26,10 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         //
     }
+    
+    func needToAddForTesting(){
+        print("Need to test this buddy...")
+    }
 
 }
 
