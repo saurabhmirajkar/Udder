@@ -18,26 +18,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Udder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgz-4o-jde">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Udder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgz-4o-jde">
                                 <rect key="frame" x="134" y="62" width="107" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fresh Milk, On Demand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iH-ds-mMB">
-                                <rect key="frame" x="98" y="118" width="179" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fresh Milk, On Demand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iH-ds-mMB">
+                                <rect key="frame" x="98" y="115" width="179" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bitmoji" translatesAutoresizingMaskIntoConstraints="NO" id="d6S-SO-Pio">
-                                <rect key="frame" x="0.0" y="142" width="375" height="375"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitmoji" translatesAutoresizingMaskIntoConstraints="NO" id="d6S-SO-Pio">
+                                <rect key="frame" x="-11.5" y="134.5" width="398" height="398"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rgz-4o-jde" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="42" id="ATT-BK-rpa"/>
+                            <constraint firstItem="6iH-ds-mMB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MBs-K5-W2W"/>
+                            <constraint firstItem="d6S-SO-Pio" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bxB-jU-eRB"/>
+                            <constraint firstItem="rgz-4o-jde" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j6T-5C-66z"/>
+                            <constraint firstItem="6iH-ds-mMB" firstAttribute="top" secondItem="rgz-4o-jde" secondAttribute="bottom" constant="5" id="pGk-Ax-c3e"/>
+                            <constraint firstItem="d6S-SO-Pio" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wCC-xP-MzV"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
